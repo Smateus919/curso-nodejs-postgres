@@ -5,7 +5,7 @@ const routerApi = require('./routes');
 const { logErrors, errorHandler, boomErrorHandler } = require('./middlewares/error.handler');
 
 const app = express();
-const port = process.env.PORT || 3002;
+const port =  3001; //process.env.PORT ||
 
 app.use(express.json());
 
